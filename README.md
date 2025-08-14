@@ -13,7 +13,7 @@ TestCaseGenAI is a full-fledged web application that helps you generate AI-power
 
 ## Project Structure
 
-```
+```text
 TestCaseGenerator/
 ├── backend/
 │   ├── __init__.py
@@ -52,11 +52,13 @@ cd backend
 ```
 
 2. Install dependencies (if any, e.g. FastAPI, Uvicorn):
-	
+
 ```sh
 pip install fastapi uvicorn
 ```
-## or
+
+### or
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -70,7 +72,7 @@ uvicorn main:app --reload
 ### Frontend Setup
 
 1. Navigate to the `frontend` folder:
-	
+
 ```sh
 cd frontend
 ```
@@ -82,7 +84,7 @@ npm install
 ```
 
 3. Start the frontend dev server:
-	
+
 ```sh
 npm run dev
 ```
@@ -101,4 +103,5 @@ npm run dev
 - Tailwind CSS (for UI)
 
 ## License
+
 MIT
