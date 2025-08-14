@@ -56,6 +56,10 @@ cd backend
 ```sh
 pip install fastapi uvicorn
 ```
+## or
+```bash
+pip install -r requirements.txt
+```
 
 3. Start the backend server:
 
